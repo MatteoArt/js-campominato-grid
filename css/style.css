@@ -3,7 +3,34 @@
     margin: 0;
     padding: 0;
 }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 .container {
-    width: 1000px;
-    margin: auto;
+    margin: 30px auto;
+    aspect-ratio: 1 / 1;
+    border: 1px solid black;
+    display: none;  
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-container {
+    padding: 15px;
+}
+.btn-play {
+    font-size: 13px;
+    font-weight: 600;
+    display: inline-block;
+    padding: 8px;
+    background-color: rgb(95, 177, 95);
+    border: 1px solid rgb(44, 142, 44);
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+.square {
+    aspect-ratio: 1 / 1;
 }
